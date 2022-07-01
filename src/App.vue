@@ -67,11 +67,11 @@ export default {
     <br />
     <!-- 侦听器 -->
     <button @click="testWatch = !testWatch">
-      改变侦听对象name|{{ testWatch }}
+      改变侦听对象isLog|{{ testWatch }}
     </button>
     <br />
     <button @click="watchObj.isLog = !watchObj.isLog">
-      改变侦听对象name|{{ watchObj.isLog }}
+      改变侦听对象isLog|{{ watchObj.isLog }}
     </button>
   </div>
 </template>
